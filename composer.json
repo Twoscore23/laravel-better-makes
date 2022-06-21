@@ -17,5 +17,6 @@
             "email": "tcb505@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
