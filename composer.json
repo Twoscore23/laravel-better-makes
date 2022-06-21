@@ -1,0 +1,21 @@
+{
+    "name": "twoscore23/laravel-better-makes",
+    "description": "Laravel Better Makes - A package that contains better make commands for Laravel, removing the task of writing boilerplate.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "./helpers.php"
+        ],
+        "psr-4": {
+            "Twoscore23\\LaravelBetterMakes\\Commands\\": "packages/twoscore23/laravel-better-makes/Commands"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ty Burke",
+            "email": "tcb505@gmail.com"
+        }
+    ],
+    "require": {}
+}
