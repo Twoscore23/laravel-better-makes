@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Twoscore23\\LaravelBetterMakes\\LaravelBetterMakesProvider"
+                "Twoscore23\\laravel-better-makes\\LaravelBetterMakesProvider"
             ]
         }
     },
