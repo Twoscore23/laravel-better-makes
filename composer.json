@@ -18,5 +18,14 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Twoscore23\\LaravelBetterMakes\\LaravelBetterMakesProvider"
+            ]
+        }
+    },
+    "require": {
+        "illuminate/support": "^11.0@dev"
+    }
 }

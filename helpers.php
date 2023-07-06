@@ -2,15 +2,6 @@
 
 use Illuminate\Filesystem\Filesystem;
 
-function defaultGeofence()
-{
-    return [
-        ['lat' => '24.123456', 'lng' => '12.123456'],
-        ['lat' => '24.123457', 'lng' => '12.123457'],
-        ['lat' => '24.123458', 'lng' => '12.123458'],
-    ];
-}
-
 function getPlural(string $string)
 {
     return $string[-1] == 'y'
@@ -94,9 +85,4 @@ function formatStartCaseToSnakeCase(string $string)
     }
 
     return strtolower(implode($strArr));
-}
-
-function getSqlFromFile(string $fileName)
-{
-    return file_get_contents(base_path('database/sql/' . $fileName . '.sql'));
 }
