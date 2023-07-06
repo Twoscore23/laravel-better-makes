@@ -68,7 +68,7 @@ function formatSnakeCaseToStartCase(string $string)
 {
     $strArr = explode('_', $string);
     $strStartCase = ucfirst(array_shift($strArr));
-    $strStartCase .= implode("", array: 
+    $strStartCase .= implode("", 
         array_map(function (string $str) {
             return ucfirst($str);
         }, $strArr)
