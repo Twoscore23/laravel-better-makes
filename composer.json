@@ -1,7 +1,7 @@
 {
     "name": "twoscore23/laravel-better-makes",
     "description": "Laravel Better Makes - A package that contains better make commands for Laravel, removing the task of writing boilerplate.",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "files": [
