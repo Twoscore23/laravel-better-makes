@@ -8,7 +8,8 @@
             "./helpers.php"
         ],
         "psr-4": {
-            "Twoscore23\\LaravelBetterMakes\\": "vendor/twoscore23/laravel-better-makes"
+            "Twoscore23\\LaravelBetterMakes\\": "/",
+            "Twoscore23\\LaravelBetterMakes\\Commands\\": "/Commands"
         }
     },
     "authors": [
@@ -21,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "vendor\\twoscore23\\laravel-better-makes\\LaravelBetterMakesProvider"
+                "Twoscore23\\LaravelBetterMakes\\LaravelBetterMakesProvider"
             ]
         }
     },
