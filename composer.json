@@ -26,6 +26,6 @@
         }
     },
     "require": {
-        "illuminate/support": "^11.0@dev"
+        "illuminate/support": "8.x-dev"
     }
 }
